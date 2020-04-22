@@ -12,7 +12,7 @@ class Carousel extends React.Component {
             {
                 id: 0,
                 title: "Plantify",
-                subTitle: "A plant app for plant owners to keep track of their plants and watering care",
+                subTitle: "An app for plant owners to keep track of their plants and watering care",
                 imgSrc: plantify,
                 link: "https://www.youtube.com/watch?v=ntkYMjSWPzM&t=2s",
                 selected: false
@@ -21,19 +21,11 @@ class Carousel extends React.Component {
             {
                 id: 1,
                 title: "The Good Space",
-                subTitle: "A community platform inspired by COVID-19 and Craigslist",
+                subTitle: "A community platform inspired by COVID-19 and Craigslist.",
                 imgSrc: goodspace,
                 link: "https://www.youtube.com/watch?v=W91r_k2rT0E&t=2s",
                 selected: false
             },
-            // {
-            // id: 2,
-            // title: "Something3",
-            // subTitle: "sub something3",
-            // imgSrc: townhouse,
-            // link: "http://www.behance.net/jaywenphoto",
-            // selected: false
-            // },
         ]
     }
 

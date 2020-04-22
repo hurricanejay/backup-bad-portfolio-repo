@@ -4,11 +4,9 @@ import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-
 import Footer from './Components/Footer'
 import Homepage from './Pages/Homepage';
 import AboutPage from './Pages/AboutPage';
-// import ContactPage from './Pages/ContactPage';
 
 class App extends React.Component {
 
@@ -17,7 +15,6 @@ class App extends React.Component {
     headerLinks: [ 
       {title: "Home", path: '/'},
       {title: "About", path: '/about'}, 
-      // {title: "Contact", path: '/contact'} 
     ],  
 
     home: {
@@ -29,11 +26,6 @@ class App extends React.Component {
     about: {
       title: "About Me",
     },
-
-    // contact: {
-    //   title: "Say Hi!",
-    // }
-
   }
 
   render() {
@@ -43,7 +35,7 @@ class App extends React.Component {
         <Router>
             <Container className="p-0" fluid={true}>
               <Navbar className="border-bottom" bg="transparent" expand="lg">  
-              <Navbar.Brand><Link className="nav-link" to="/">Jay Wen</Link></Navbar.Brand>
+              <Navbar.Brand className="nav-link"><Link to="/">Jay Wen</Link></Navbar.Brand>
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
               <Navbar.Collapse id="navbar-toggle">
                 
