@@ -13,7 +13,7 @@ function AboutPage(props) {
                 <Content>
                     <div className="about-me-div">
                             <img src={Jay} alt="jay headshot" className='img' />
-
+<h1>THIS IS A MINOR CHANGE</h1>
                             <p>I am a full stack software engineer with a passion for beautiful design and functionality.</p>
                             <p>From a young age I was always fussing around with websites blogging (Blogger, Tumblr) or updating my Myspace. 
                                 It wasn't until many years later that I re-discovered my passion for the creating things on the interwebz. 
